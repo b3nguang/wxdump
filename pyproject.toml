@@ -1,0 +1,11 @@
+[project]
+name = "wxdump"
+version = "0.1.0"
+description = "WeChat Database Decryption and Message Export Tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "psutil>=6.1.1",
+    "pycryptodome>=3.21.0",
+    "pymem>=1.14.0",
+]
